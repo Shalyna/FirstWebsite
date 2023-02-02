@@ -100,3 +100,52 @@ button {
     align-items: center;
     gap: 35px;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    height: 400px;
+}
+
+.citation, .author{
+    width: 800px;
+    height: auto; 
+}
+
+.quote .author {
+    display: flex;
+    justify-content: flex-end;
+}
+.quote q {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote p {
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.box {
+    background: #3882F6;
+    width: 1000px;
+    height: 200px
+}
+
+.action button {
+    display: block;
+    background: #3882F6;
+    border: none;
+    color: white;
+    max-width: 80px;
+    height: 25px;
+    border-radius: 4px;
+    box-shadow: none;
+    margin-top: 10px;
+}

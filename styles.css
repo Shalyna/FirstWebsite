@@ -69,3 +69,34 @@ button {
  
 }
 
+.main {
+    height: 400px;
+    width: auto;
+}
+.main img {
+    width: 200px;
+    height: auto;
+}
+
+.main h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 900px;
+    color: #1F2937;
+}
+
+.main p {
+    color: rgb(110, 109, 109);
+    font-size: 18px;
+    width: 200px;
+    margin-top: 12px;
+}
+
+.descriptions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}

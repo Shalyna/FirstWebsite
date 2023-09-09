@@ -5,8 +5,8 @@ body {
 }
 
 .header {
-    background-color: rgb(246, 182, 214);
-    border-top: 2px solid rgb(168, 0, 98);
+    background-color: #EBE8E7;
+    /* border-top: 2px solid rgb(168, 0, 98); */
     padding: 15px 200px 30px 200px;
     margin: 0;
 }
@@ -28,13 +28,15 @@ body {
 }
 
 a {
-    color: rgb(122, 120, 120);
+    color:  #67AECA;
+    /* text-shadow: 2px 1px rgb(51, 200, 185); */
     font-size: 18px;
     text-decoration: none;
 }
 
 a:hover {
-    color: hotpink;
+    /* color: rgb(51, 200, 185); */
+    text-shadow: 1px 1px silver;
 }
 
 .headersection {
@@ -44,14 +46,15 @@ a:hover {
 }
 
 .headersection img {
-    border: 2px solid  rgb(151, 111, 10);
+    border: 2px solid #67AECA;
     border-radius: 3px;
     width: 440px;
     height: auto;
 }
 
 .headersection h1{ 
-    color: rgb(239, 63, 151);
+    color: #5F0F4E;
+    text-shadow: 2px 2px white;
     font-size: 48px;
     font-weight:900;
     width: 400px;   
@@ -59,37 +62,38 @@ a:hover {
 }
 
 .headersection p {
-    color:  rgb(151, 111, 10);
+    color:   black;
     font-size: 18px;
     width: 500px;
     margin-top: 7px;
 }
 
 button {
-    background: hotpink;
-    color:  rgb(168, 0, 98);
+    background: #67AECA;
+    color:  white;
+    border: 2px solid white;
     min-width: 120px;
     height: 25px;
     border-radius: 4px;
-    border-color: hotpink;
+    border-color: white;
     margin-top: 10px;
  
 }
 
 button:hover {
-    background-color: rgb(168, 0, 98);
-    color: hotpink;
+    background-color: #5F0F4E;
+    /* color: silver; */
 }
 
 .main {
-    background-color: rgba(175, 4, 175, 0.375);
+    background-color: #5F0F4E;
     height: 420px;
     width: auto;
     margin-top: 0;
     margin-bottom: 0;
 }
 .main img {
-    border: 2px solid rgb(151, 111, 10);
+    border: 2px solid #67AECA;
     border-radius: 3px;
     width: 300px;
     min-height: 200px;
@@ -103,7 +107,7 @@ button:hover {
     font-weight: 900px;
     padding: 50px 0px 50px 0px;
     margin: 0;
-    color: white;
+    color: #EBE8E7;
 }
 
 .descriptions {
@@ -118,8 +122,8 @@ button:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color:rgb(246, 182, 214);
-    color: rgb(239, 63, 151);
+    background-color: #EBE8E7;
+    color: black;
     height: 300px;
 }
 
@@ -140,14 +144,15 @@ button:hover {
 
 .quote p {
     font-size: 18px;
-    color: rgb(97, 97, 97);
+    /* text-shadow: 2px 2px #EA7186; */
+    color: black;
     font-weight: 900;
 }
 
 
 .action {
-    background-color: rgba(175, 4, 175, 0.375);
-    color: rgb(235, 81, 158);
+    background-color: #5F0F4E;
+    color: black;
     padding: 100px;
     display: flex;
     justify-content: center;
@@ -160,8 +165,8 @@ button:hover {
     align-items: center;
     flex-direction: row;
     gap: 40px;
-    background-color: rgb(246, 182, 214);
-    border: 2px solid;
+    background-color:  #EBE8E7;
+    border: 2px solid #67AECA;
     border-radius: 4px;
     min-width: 900px;
     height: 150px
@@ -171,16 +176,12 @@ button:hover {
     margin: 2;
 }
 
-.action button {
-    border: 2px solid white;
-    color: white;
-}
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(246, 147, 196);
+    background-color:  #67AECA;
     color: white;
     font-size: 18px;
     height: 60px
